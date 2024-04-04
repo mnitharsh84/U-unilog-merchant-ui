@@ -1,0 +1,53 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+        Helvetica Neue, sans-serif;
+
+    min-height: 100dvh;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.default-toast {
+    font-size: var(--chakra-fontSizes-sm);
+}
+
+.HoverInfo {
+    pointer-events: none !important;
+}
+
+.chakra-input.mandatory,
+.chakra-select.mandatory {
+    background-color: ivory;
+}
+
+.cardBody {
+    height: calc(100%);
+}
+.shipment-box {
+    height: calc(100% - 48px);
+    border-bottom: none;
+}
+
+/* Start Form css */
+.required-field::before {
+    content: '* ';
+}
+.text-ellipse-vertical {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+/* End form css */

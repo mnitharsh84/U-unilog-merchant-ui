@@ -1,0 +1,13 @@
+.tableContainer {
+    width: 100%;
+}
+
+.table {
+    thead {
+        margin: 0;
+        position: sticky;
+        top: 0;
+        background: white;
+        z-index: 2;
+    }
+}

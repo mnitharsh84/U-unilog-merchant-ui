@@ -1,0 +1,11 @@
+.overflowEllipsis {
+    white-space: nowrap;
+}
+
+.link {
+    color: var(--chakra-colors-blue-400);
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}

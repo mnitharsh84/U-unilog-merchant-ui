@@ -1,0 +1,12 @@
+.filterByButton {
+    height: 32px;
+    border: 1px solid var(--chakra-colors-gray-200);
+    padding: var(--chakra-space-2) var(--chakra-space-3) var(--chakra-space-2) var(--chakra-space-3);
+}
+
+.checkbox {
+    width: 100%;
+    span:last-child {
+        width: 100%;
+    }
+}

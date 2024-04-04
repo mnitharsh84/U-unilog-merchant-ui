@@ -1,0 +1,92 @@
+.productImage {
+    position: relative;
+    // padding: 12px;
+    width: 5rem;
+    .badge {
+        position: absolute;
+        margin: 0;
+        top: -6px;
+        right: -6px;
+        // -webkit-transform: translate3d(1.5rem,-50%,0);
+        // transform: translate3d(1.5rem,-50%,0);
+        z-index: 1;
+        background-color: #919eab;
+        color: #fff;
+        line-height: 1.5rem;
+        width: 24px;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .imageContainer {
+        width: 5rem;
+        height: 5rem;
+        overflow: hidden;
+        border: 1px solid #e0e0e0;
+        border-radius: 0.25rem;
+
+        img {
+            width: 5rem !important;
+            height: 5rem !important;
+            object-fit: cover;
+        }
+    }
+
+    .noImageContainer {
+        height: 5rem;
+        width: 5rem;
+        border: 1px solid #e0e0e0;
+        cursor: pointer;
+        border-radius: 0.25rem;
+        .imageIcon {
+            height: 3.125rem;
+        }
+        .noImageText {
+            overflow-wrap: break-word;
+            text-align: center;
+        }
+    }
+}
+
+.imageContainer {
+    min-width: 0;
+    max-width: 100%;
+    flex: 0 1 auto;
+    position: relative;
+}
+
+.outerCircle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%; /* Create a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db; /* Blue background */
+}
+
+.innerCircle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%; /* Create a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dotted #999;
+    background-color: #fff; /* Blue background */
+}
+
+.imageCoverBox {
+    width: 4rem;
+    height: 4rem;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px 6px 0 0;
+
+    .imageCover {
+        width: 4rem !important;
+        height: 4rem !important;
+        object-fit: cover;
+    }
+}

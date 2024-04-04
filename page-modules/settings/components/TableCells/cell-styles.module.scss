@@ -1,0 +1,11 @@
+.key {
+    font-weight: bold;
+}
+
+.link {
+    color: var(--chakra-colors-blue-400);
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}

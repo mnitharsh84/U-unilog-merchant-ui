@@ -1,0 +1,13 @@
+.layout {
+    width: calc(100dvw - 4rem);
+    margin-left: 4rem;
+    background-color: var(--chakra-colors-white);
+    height: 100dvh;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.contentArea {
+    height: calc(100dvh - 3rem);
+    background-color: var(--chakra-colors-gray-100);
+}

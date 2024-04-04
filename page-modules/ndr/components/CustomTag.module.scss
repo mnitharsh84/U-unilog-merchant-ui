@@ -1,0 +1,13 @@
+.filterTag {
+    .removeFilterIcon {
+        opacity: 0;
+        transform: all 0.3s ease-in-out;
+    }
+
+    &:hover {
+        .removeFilterIcon {
+            cursor: pointer;
+            opacity: 1;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.link {
+    color: var(--chakra-colors-blue-600);
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+        color: var(--chakra-colors-blue-400);
+        svg {
+            color: var(--chakra-colors-blue-600);
+        }
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .group_action {
+        flex-basis: 31%;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 768px) {
+    .group_action {
+        flex-basis: 48%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .group_action {
+        flex-basis: 96%;
+    }
+}

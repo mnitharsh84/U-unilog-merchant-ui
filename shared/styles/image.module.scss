@@ -1,0 +1,33 @@
+.invalidField {
+    border-color: crimson !important;
+    box-shadow: 0 0 0 1px crimson !important;
+}
+
+.imageContainer {
+    width: 4rem;
+    height: 4rem;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.25rem;
+
+    img {
+        width: 4rem !important;
+        height: 4rem !important;
+        object-fit: cover;
+    }
+}
+
+.noImageContainer {
+    height: 4rem;
+    width: 4rem;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    .imageIcon {
+        height: 2.125rem;
+    }
+    .noImageText {
+        overflow-wrap: break-word;
+        text-align: center;
+    }
+}
